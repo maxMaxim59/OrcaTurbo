@@ -1,0 +1,4 @@
+orca.turbo.test.app-androidTest-0 C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\build\generated\res\resValues\androidTest\debug
+orca.turbo.test.app-mergeDebugAndroidTestResources-1 C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+orca.turbo.test.app-mergeDebugAndroidTestResources-2 C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+orca.turbo.test.app-debugAndroidTest-3 C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

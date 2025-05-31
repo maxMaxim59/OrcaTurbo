@@ -1,0 +1,13 @@
+orca.turbo:style/NoActionBar = 0x7f050003
+orca.turbo:style/NoStatusBar = 0x7f050004
+orca.turbo:style/FullScreen = 0x7f050002
+orca.turbo:style/AppTheme = 0x7f050000
+orca.turbo:string/app_name = 0x7f040000
+orca.turbo:color/colorPrimary = 0x7f010003
+orca.turbo:color/colorPrimaryDark = 0x7f010004
+orca.turbo:layout/main = 0x7f030000
+orca.turbo:style/AppTheme.DebugActivity = 0x7f050001
+orca.turbo:drawable/ic_orca_turbo = 0x7f020000
+orca.turbo:color/colorControlNormal = 0x7f010002
+orca.turbo:color/colorControlHighlight = 0x7f010001
+orca.turbo:color/colorAccent = 0x7f010000

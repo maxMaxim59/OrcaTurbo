@@ -1,0 +1,14 @@
+orca.turbo
+color colorAccent
+color colorControlHighlight
+color colorControlNormal
+color colorPrimary
+color colorPrimaryDark
+drawable ic_orca_turbo
+layout main
+string app_name
+style AppTheme
+style AppTheme_DebugActivity
+style FullScreen
+style NoActionBar
+style NoStatusBar

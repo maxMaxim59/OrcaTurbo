@@ -1,0 +1,83 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="orca.turbo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:6:2-74
+11-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:6:19-71
+12
+13    <application
+13-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:7:2-45:16
+14        android:allowBackup="true"
+14-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:8:3-29
+15        android:debuggable="true"
+16        android:extractNativeLibs="true"
+17        android:icon="@drawable/ic_orca_turbo"
+17-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:9:3-41
+18        android:label="@string/app_name"
+18-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:10:3-35
+19        android:requestLegacyExternalStorage="true"
+19-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:11:3-46
+20        android:theme="@style/AppTheme"
+20-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:12:3-34
+21        android:usesCleartextTraffic="true" >
+21-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:13:3-38
+22        <activity
+22-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:15:3-24:14
+23            android:name="orca.turbo.MainActivity"
+23-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:16:4-32
+24            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+24-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:17:4-97
+25            android:exported="true"
+25-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:21:4-27
+26            android:hardwareAccelerated="true"
+26-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:18:4-38
+27            android:screenOrientation="portrait"
+27-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:20:4-40
+28            android:supportsPictureInPicture="true" >
+28-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:19:4-43
+29        </activity>
+30        <activity
+30-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:25:3-29:84
+31            android:name="orca.turbo.DebugActivity"
+31-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:26:4-33
+32            android:screenOrientation="portrait"
+32-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:27:4-40
+33            android:theme="@style/AppTheme.DebugActivity" />
+33-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:28:4-49
+34
+35        <uses-library
+35-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:30:3-32:31
+36            android:name="org.apache.http.legacy"
+36-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:31:4-41
+37            android:required="false" />
+37-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:32:4-28
+38
+39        <service
+39-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:34:1-44:11
+40            android:name="orca.turbo.SafeKillerTileService"
+40-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:36:5-42
+41            android:exported="true"
+41-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:39:5-28
+42            android:icon="@drawable/ic_orca_turbo"
+42-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:37:5-43
+43            android:label="Turbo"
+43-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:35:5-26
+44            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+44-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:38:5-69
+45            <intent-filter>
+45-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:41:5-43:21
+46                <action android:name="android.service.quicksettings.action.QS_TILE" />
+46-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:42:9-79
+46-->C:\Users\Siltu\Downloads\Android-Studio-Project\OrcaTurbo\app\src\main\AndroidManifest.xml:42:17-76
+47            </intent-filter>
+48        </service>
+49    </application>
+50
+51</manifest>

@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorControlHighlight
+color colorControlNormal
+color colorPrimary
+color colorPrimaryDark
+drawable ic_orca_turbo
+layout main
+string app_name
+style AppTheme
+style AppTheme.DebugActivity
+style FullScreen
+style NoActionBar
+style NoStatusBar
