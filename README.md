@@ -1,4 +1,11 @@
-# OrcaTurbo
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fd83efd7-3417-469a-be4c-714552b69caa" width="100"/>
+</p>
+
+<p align="center">
+  <span style="font-size:80px"><strong>OrcaTurbo</strong></span>
+</p>
+
 
 > A powerful root-based performance utility designed to enhance gaming by freeing up RAM through aggressive foreground and background app cleanup — without touching system apps.
 
