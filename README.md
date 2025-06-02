@@ -8,6 +8,8 @@
 
 ---
 
+![GitHub all releases](https://img.shields.io/github/downloads/NoOBdevXD/OrcaTurbo/total?style=for-the-badge)
+
 ## Features:
 
 - One-click **Turbo Mode** via **QS (Quick Settings) toggle**
@@ -64,7 +66,7 @@ com.nvsgames.DMC           # Devil May Cry Mobile
 
 ## Download:
 
-- [GitHub Releases](https://github.com/yourrepo/OrcaTurbo/releases/latest) *(Replace with actual URL)*
+- [OrcaTurbo](https://github.com/NoOBdevXD/OrcaTurbo/releases/tag/v1.0)
 
 ---
 
