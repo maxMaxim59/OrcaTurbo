@@ -43,7 +43,7 @@ public class SafeKillerTileService extends TileService {
                 os.flush();
                 os.close();
 
-                new Handler(Looper.getMainLooper()).post(() -> Toast.makeText(SafeKillerTileService.this, "Trubo Activated", Toast.LENGTH_SHORT).show());
+                new Handler(Looper.getMainLooper()).post(() -> Toast.makeText(SafeKillerTileService.this, "Turbogit  Activated", Toast.LENGTH_SHORT).show());
 
             } catch (Exception e) {
                 new Handler(Looper.getMainLooper()).post(() -> Toast.makeText(SafeKillerTileService.this, "Root required!", Toast.LENGTH_SHORT).show());
